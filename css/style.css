@@ -1,0 +1,53 @@
+/* general changes */
+h4{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar{
+  border-bottom: slateblue 5px solid ;
+}
+ .navbar-brand{
+   font-size: 1.6em;
+ }
+.navbar-brand:hover{
+  color: slateblue !important;
+}
+.nav-link{
+  text-transform: uppercase;
+}
+
+ .nav-link:hover{
+   color: slateblue !important;
+ }
+
+h1{
+  margin-top:10px;
+}
+ #header{
+   background: url('../imgs/cover.jpg') no-repeat;
+   background-size: cover;
+   height: 100vh;
+ }
+
+ #features i{
+   color: slateblue;
+   cursor: pointer;
+ }
+
+ #features h4:hover{
+   color: violet;
+   cursor:pointer;
+ }
+
+ /* work section */
+#work{
+  background: url('../imgs/cover1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#work i:hover{
+  color: orange;
+}
